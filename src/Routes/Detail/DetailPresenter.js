@@ -139,7 +139,7 @@ const DetailPresenter = ({result, loading, imdb_id, isMovie, error}) =>
                     <Content>
                         <Cover bgImage={result.poster_path
                             ? `https://image.tmdb.org/t/p/original${result.poster_path}`
-                            : require("/src/assets/noPosterSmall.png")}/>
+                            : require("../../assets/noPosterSmall.png")}/>
                         <Data>
                             <Title>{result.original_title
                                 ? result.original_title
