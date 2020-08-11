@@ -77,7 +77,7 @@ function Seasons({location, match, history}) {
                     <div key={index}>
                         <Image bgUrl={seasons.poster_path
                             ? `https://image.tmdb.org/t/p/w300${seasons.poster_path}`
-                            : require("../assets/noPosterSmall.png")}
+                            : require("assets/noPosterSmall.png")}
                         />
                         <Title>{seasons.name}</Title>
                     </div>
