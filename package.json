@@ -29,7 +29,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://lezendev.github.io/nomflix",
+  "homepage": "https://jolly-visvesvaraya-2ba5fd.netlify.app/",
   "browserslist": {
     "production": [
       ">0.2%",
