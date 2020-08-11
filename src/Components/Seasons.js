@@ -5,6 +5,7 @@ import {moviesApi, tvApi} from "../api";
 import Loader from "./Loader";
 import Section from "./Section";
 
+
 const Context = styled.div`
   padding: 3px 3px;  
   margin: 2px 0;
