@@ -60,7 +60,7 @@ const Poster = ({ id, imageUrl, title, rating, year, isMovie = false }) =>
         <Container>
             <ImageContainer>
                 <Image
-                    bgUrl={imageUrl ? `https://image.tmdb.org/t/p/w300${imageUrl}` : {noPoster}}/>
+                    bgUrl={imageUrl ? `https://image.tmdb.org/t/p/w300${imageUrl}` : require("assets/noPosterSmall.png")}/>
                 <Rating>
                 <span role="img" aria-label="rating">
                     ☆
